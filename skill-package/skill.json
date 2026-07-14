@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          },
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionCountries": [
+        "GB"
+      ],
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-GB": {
+          "description": "A minimal development skill used to test a legacy display template followed by AudioPlayer playback.",
+          "examplePhrases": [
+            "Alexa, open legacy audio test",
+            "Alexa, ask legacy audio test to play test"
+          ],
+          "keywords": [
+            "audio",
+            "test",
+            "display"
+          ],
+          "name": "Legacy Audio Test",
+          "summary": "Tests a legacy display template with Alexa AudioPlayer."
+        }
+      },
+      "testingInstructions": "Open the skill and confirm that it attempts to show a legacy BodyTemplate2 screen and start the test audio stream."
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-GB": {}
+      }
+    }
+  }
+}
