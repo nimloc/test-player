@@ -1,8 +1,0 @@
-{
-  "name": "legacy-audio-test-gb",
-  "version": "1.0.0",
-  "description": "Minimal legacy Display.RenderTemplate and AudioPlayer.Play test for en-GB",
-  "main": "index.js",
-  "license": "UNLICENSED",
-  "dependencies": {}
-}
